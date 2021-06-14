@@ -1,0 +1,6 @@
+framework module BKMainModule {
+  umbrella header "BKMainModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

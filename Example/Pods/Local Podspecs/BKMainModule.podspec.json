@@ -1,0 +1,22 @@
+{
+  "name": "BKMainModule",
+  "version": "0.1.0",
+  "summary": "A short description of BKMainModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xwzx100200@163.com/BKMainModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xwzx100200@163.com": "xwzx100200@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xwzx100200@163.com/BKMainModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BKMainModule/Classes/**/*"
+}

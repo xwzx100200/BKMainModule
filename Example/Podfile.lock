@@ -1,0 +1,16 @@
+PODS:
+  - BKMainModule (0.1.0)
+
+DEPENDENCIES:
+  - BKMainModule (from `../`)
+
+EXTERNAL SOURCES:
+  BKMainModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BKMainModule: c8d71e7353464622891e9a69e8bbc8b7166c28a2
+
+PODFILE CHECKSUM: 8bdecdf4a260e7ac93fe61b540ea5b20f1cbdb1a
+
+COCOAPODS: 1.9.1
