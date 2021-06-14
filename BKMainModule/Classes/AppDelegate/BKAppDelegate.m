@@ -7,7 +7,7 @@
 //
 
 #import "BKAppDelegate.h"
-#import "BKHomeVC.h"
+#import "BKTabBarVC.h"
 
 @implementation BKAppDelegate
 
@@ -15,10 +15,10 @@
 {
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
     CGFloat height = [UIScreen mainScreen].bounds.size.height;
-    BKHomeVC *homeVC = [[BKHomeVC alloc]init];
+    BKTabBarVC *rootVC = [[BKTabBarVC alloc]init];
     self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0, 0, width, height)];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = homeVC;
+    self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     return YES;
 }
