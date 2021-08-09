@@ -8,6 +8,7 @@
 
 #import "BKAppDelegate.h"
 #import "BKTabBarVC.h"
+#import <BKMonitor/BKMonitorWindow.h>
 
 @implementation BKAppDelegate
 
@@ -20,7 +21,12 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
+    [self initAllOtherModulesWithApplication:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
+}
+
+- (void)initAllOtherModulesWithApplication:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [BKMonitorWindow createMonitorWindow];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

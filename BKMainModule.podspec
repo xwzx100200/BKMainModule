@@ -40,5 +40,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'BKResource'
+  s.dependency 'BKMonitor'
   # s.prefix_header_contents = '#import "BKHomeVC.h"'
 end
