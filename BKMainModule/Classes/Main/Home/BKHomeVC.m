@@ -8,6 +8,7 @@
 
 #import "BKHomeVC.h"
 #import <BKResource/NSString+BKSourceJsonStr.h>
+#import <BKMonitor/BKLogData.h>
 
 @interface BKHomeVC ()
 
@@ -28,6 +29,8 @@
 - (void)testJson {
     NSDictionary* dic = [NSString sourceJsonStrToDic:@"187data"];
     NSLog(@"%@",dic);
+    
+    [BKLogData insertLog:@"这是测试的日志，点击啊放假啊来开电视发了束带结发接收到打飞机啊老师对接放辣椒是打飞机阿里斯顿缴费了的发酵饲料打飞机啊乐山大佛发到上会计分录；氨基丁酸了放假爱上了多久发。"];
 }
 
 
